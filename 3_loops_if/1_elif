@@ -1,0 +1,39 @@
+تمرین آخر از سری قبلی را می‌توان به صورت زیر نوشت:
+
+```
+a = int(input())
+if a%2==0: 
+        print("bar 2")
+elif a%3==0:
+        print("bar 3")
+else:
+        print("hichkodoom")
+```
+
+ دستور **elif** مخفف دستور else if می‌باشد و به معنی «در غیر اینصورت اگر » است که باید جلوی آن شرطی را نوشت و در صورتی که شروط قبلی صادق نباشند و شرط این دستور درست باشد دستورات آن را اجرا می‌کند.
+
+###تمرین سر کلاس
+
+چه چیزی چاپ می‌شود؟
+
+```
+age = 13
+if (0 <= age) and (age < 6):
+    print("khordsal")
+elif (6 <= age) and (age < 10):
+    print("koodak")
+elif (10 <= age) and (age < 14):
+    print("nojavan")
+else:
+    print("bozorgsal")
+```
+
+
+---
+یک عدد بگیرد و بگوید یک رقمی است یا ۲ رقمی؟
+
+---
+https://quera.ir/problemset/contest/3404/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%AA%D9%88-%DA%86%D9%82%D8%AF%D8%B1-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%D9%88%D8%B2%D9%86-%D8%AF%D8%A7%D8%B1%DB%8C
+
+---
+https://quera.ir/problemset/contest/3414/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%AF%D9%88-%D9%86%D9%82%D8%B7%D9%87-%D8%AE%D8%B7
