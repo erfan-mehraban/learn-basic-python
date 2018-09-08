@@ -1,0 +1,39 @@
++ Dice rolling
++ Xo
++ Ultra xo
++ Flash card
+	درست کردن یک کالکشن
+	نگه داری جواب و نشون دادن برای یادگیری
++ Idm
+	درست کردن لیست چیزهایی که باید دانلود بشه
+	شروع دانلود لیست سر ساعت
+	نگه داری فایل‌های دانلود شده
++ Othello
++ Task manager
+	add
+	done
+	delete
+	set due date (show today and tomorrow )
+	make prior
+	add tag
+	save / load
+	plus: GUI
++ Snake
++ Pentago game
++ Text adventure game
++ حسابداری
++ فکر بکر
+	هم بازیکن بتونه بازی کنه و هم کامپیوتر بتونه حدس بزنه
++ Spreadsheet:
+	save / load
+	detect loops
+	cut / copy ( +change refrences )
+	merge cells
+	insert row / cul ( +change refrences )
+	+ border
+	### formulas
+	basic operations
+	sum
+	avg
+	max / min
+	plus: custom formula

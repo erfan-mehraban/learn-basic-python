@@ -1,0 +1,29 @@
+تابعی بنویسید که ۲ ورودی بگیرد: نام فایل و یک دیکشنری. سپس در فایل ذکر شده تمامی کلید‌هایی که در دیکشنری هستند را پیدا کرده و  با مقدار همان کلید جایگزین کند و متن جدید را در یک فایل دیگر با پسوند replaced عوض کند. (مانند همان کاری که replace در word یا notepad انجام می‌دهد) نام تابع شما باید replace باشد.
+
+توجه کنید که هر خط از فایل ممکن است شامل چند کلمه باشد و یکی از آن‌ها کلمه‌ی اول باشد.
+
+# مثال
+فایل input.txt:
+
+```
+salam
+hale shoma chetore?
+omidvaram ya alan rooze
+khoobi dashte moboodidi shoma !
+```
+
+نحوه‌ی صدا زدن تابع:
+
+```
+>>> replace("input.txt", {"shoma":"to", "ya":"or"})
+```
+
+فایل input.replaced که پس از صدا زدن تابع ایجاد شده است:
+
+```
+salam
+hale to chetore?
+omidvaram or alan rooze
+khoobi dashte moboodidi to !
+```
+

@@ -1,0 +1,54 @@
+همانطور که دیدید استرینگ بسیار شبیه به یک آرایه از کارکترهاست. کارکرد اسلایس کردن یک آرایه و چک کردن وجود یک کلمه با کارکتر با in نیز در رشته‌ها وجود دارد
+
+```
+>>> a = "salam khobi?"
+>>> a[2:8]
+'lam kh'
+>>> a[::-1]
+'?ibohk malas'
+>>> "khoob" in a
+False
+>>> "khob" in a
+True
+```
+
+# تمرین در کلاس
+https://quera.ir/problemset/contest/2659/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%AA%D8%B3%D8%AA-%D8%A8%DB%8C%D9%86%D8%A7%DB%8C%DB%8C
+
+---
+برای اینکه در خروجی python چاپ شود x و y به ترتیب از چپ به راست چه مقادیری باید داشته باشند؟
+
+```
+string = "course python in maktabkhooneh"
+print(string[x:y])
+```
+
+---
+آیا استرینگ پالیندروم است؟
+A palindrome is a string that reads the same forwards and backwards.
+
+---
+
+# \\n \\t
+
+همانطور که یادتان هست برای نمایش سر خط از کارکتر ```\n``` استفاده میکردیم
+
+```
+>>> print("hi", end="")
+hi>>> print("hi\n", end="")
+hi
+>>> print("hi\n\n", end="")
+hi
+
+```
+
+همچنین برای نمایش tab از کارکتر ```\t``` استفاده کنید:
+
+```
+>>> print("\thi")
+	hi
+```
+
+همچنین می‌توانید لیست بقیه‌ی escape کارکتر‌ها را اینجا ببینید:
+
+https://en.wikipedia.org/wiki/Escape_character
